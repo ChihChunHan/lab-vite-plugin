@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // ...existing options...
+    "typeRoots": ["./node_modules/@types", "./custom.d.ts"]
+  },
+  "include": [
+    // ...existing includes...
+    "custom.d.ts"
+  ]
+}
